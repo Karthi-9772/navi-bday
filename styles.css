@@ -1,0 +1,169 @@
+@font-face{
+	src: url("Bangers-Regular.ttf");
+	font-family: "bday";
+}
+body{
+	background-image: url("https://media.giphy.com/media/FlodpfQUBSp20/giphy.gif");
+}
+.whole{
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+}
+.title{
+	font-family: 'Darumadrop One', cursive;
+	font-size: 60px;
+	font-family: bday;
+	letter-spacing: 3px;
+	color: blue;
+}
+#profile{
+	width: 500px;
+	border-radius: 300px;
+	border: 8px solid lightblue;
+
+}
+#age{
+	color: blueviolet;
+	text-shadow: 0px 0px 3px darkblue;
+	padding: 10px 20px 10px;
+	font-family:"bday" ;
+	letter-spacing: 1px;
+	box-shadow:2px solid black ;
+    font-size: 30px;
+}
+.gift-sec{
+
+}
+.gift-tit{
+	color: orange;
+	font-size: 60px;
+	font-family: "bday";
+	margin-bottom: 8px;
+}
+#hint{
+	color: orangered;
+	font-size: 30px;
+	font-family: sans-serif;
+	margin-top: -30px;
+}
+.gift-box1{
+width: 800px;
+height: 800px;
+border: 2px solid black ;
+background-image: url("gift-cover.jpg");
+background-size: cover;
+transition: 0.5s;
+margin: 0px auto;
+}
+
+.gift-box{
+width:800px;
+height: 800px;
+border: 2px solid ;
+background-image: url("gift-cover.jpg");
+background-size: cover;
+transition: 0.3s;
+margin: 0px auto;
+
+}
+.gift-box:hover{
+	
+background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTkxOTJmOThhZjEyNDNlNjgzMDk2NDIyMmMzODM2YTc3MzNhNmMyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/g5R9dok94mrIvplmZd/giphy.gif");
+
+background-size: 799px 800px;
+ransform: scale(1.05);
+background-position-x: center;
+background-position-y: center;
+
+}
+
+.gift-box1:hover{
+	
+background-image: url("queue1.jpg");
+transform: scale(1.05);
+}
+.gift-box2{
+width: 473px;
+height: 622px;
+border: 2px solid black ;
+background-image: url("gift-cover.jpg");
+background-size: 473px 622px;
+transition: 0.3s;
+margin: 0px auto;
+
+}
+.gift-box2:hover{
+	transform: scale(1.05);
+background-image: url("pass.jpg");
+background-size: 473px 622px;
+
+}
+.gift-box3{
+width: 512px;
+height: 1000px;
+border: 2px solid black ;
+background-image: url("gift-cover.jpg");
+background-size: 512px 1000px;
+transition: 0.3s;
+margin: 0px auto;
+
+}
+.gift-box3:hover{
+	
+background-image: url("IMG_20230505_144824_584.jpg");
+background-clip: border-box;
+background-size: 100% 100%;
+background-position-y: 0px;
+background-position-x: 0px;
+
+}
+.gift-box4{
+width: 550px;
+height: 800px;
+border: 2px solid black ;
+background-image: url("gift-cover.jpg");
+background-size: 550px  800px;
+transition: 0.3s;
+margin: 0px auto;
+
+}
+.gift-box4:hover{
+	
+background-image: url("briyani.jpg");
+
+background-position-y: -0px;
+}
+.gift-box5{
+width: 800px;
+height: 800px;
+border: 2px solid black ;
+background-image: url("gift-cover.jpg");
+background-size: 800px 800px;
+transition: 0.3s;
+margin: 0px auto;
+
+}
+.gift-box5:hover{
+	
+background-image: url("nadai.jpg");
+
+background-size: cover;
+background-size: scale(1.5);
+background-position-y: -250px;
+}
+
+.border{
+	border: 10px solid rgb(24, 77, 66) ;
+	border-radius: 20px;
+}
+.rect{
+	background-color: blueviolet;
+	text-align: center;
+	padding: 20px;
+	font-family: sans-serif;
+
+}
